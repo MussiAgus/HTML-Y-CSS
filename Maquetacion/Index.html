@@ -4,21 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tarea</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:small;
+            margin:0px;
+        }
+        button{
+            background-color: white;
+            padding: 0px 20px;
+            border: 2px solid black;
+            border-radius: 25px;
+            height: 32px;
+        }
+        #header-accesos p{
+            margin-right: 30px;
+        }
+        #introduction {
+            padding: 70px;
+        }
+        #introduction-text{
+            margin: 0px 620px;
+            text-align:center;    
+        }
+        #introduction-botones{
+            margin-top: 40px;
+            display: flex; 
+            justify-content: center;
+        }
+
+    </style>
 </head>
 <body>
-    <div style="border-bottom: 7px solid gray; display: flex; justify-content: space-between;">
+    <div style="border-bottom: 1px solid gray; display: flex; justify-content: space-between; margin-top: 5px; padding: 15px 350px;">
         <div id="header-logo">
             <img src="logo.svg">
         </div>
-        <div id="header-accesos" style="display: flex;">        
+        <div id="header-accesos" style="display: flex; align-items: center; padding-right: 30px;">        
             <p>Nosotros</p>
             <p>Programas</p>
             <p>Capacitaciones</p>
             <p>Alianzas</p>
             <p>Contacto</p>
             <button>Sumate +</button>
+            <img src="logoIns.png" style="margin-left: 30px; width:20px;">
+            <img src="logolink.png" style="margin-left: 15px; width:20px;">
         </div>
     </div>
+    
+    
+    <div id="introduction">
+        <div id="introduction-text">
+            <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
+        </div>
+        <div id="introduction-botones">
+            <button style="margin-right: 20px;">Contactanos</button>
+            <button style="color:blueviolet; border:2px solid blueviolet;">Sumate +</button>
+        </div>
+    </div>
+
+
+    <div id="impacto" style="background-color: #201b24; color:white">
+        <h1>.Impacto</h1>
+        <p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
+    </div>
+
+    
 </body>
 </html>
