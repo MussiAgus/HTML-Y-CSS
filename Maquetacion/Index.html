@@ -34,17 +34,23 @@
             justify-content: center;
         }
         #impacto{
+            display: flex;
             background-color: #201b24;
             color:white;    
-            padding: 130px;
-            justify-content: center;
+            justify-content:space-between;
+            padding: 130px 600px;
+            align-items: center;
         }
         #impacto-text{
             line-height: 20px;
+            padding-right: 30px;
             text-align: left;
-            padding-left: 410px;
-            padding-right: 900px;
         }
+        .numerog{
+            font-size: 50px;
+            margin: 0px;
+        }
+
 
     </style>
 </head>
@@ -72,17 +78,30 @@
         </div>
         <div id="introduction-botones">
             <button style="margin-right: 20px;">Contactanos</button>
-            <button style="color:blueviolet; border:2px solid blueviolet;">Sumate +</button>
+            <button style="color:blueviolet; border:2px solid blueviolet;">Sumate <b>+</b></button>
         </div>
     </div>
 
 
-    <div id="impacto">
+    <div id="impacto" style="display: flex; align-items: end;">
         <div id="impacto-text">
-            <h1>.Impacto</h1>
+            <h1>. Impacto</h1>
             <p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
         </div>
-        
+        <div id="impacto-num" style="display: flex; padding-bottom: 20px;">
+        <div id="numeros" style="flex-direction: column;">
+            <p class="numerog"><b>58</b></p>
+            <p style="margin: 0%; color: gray;">Localidades</p>
+        </div>
+        <div id="numero2" style="flex-direction: column; padding-left: 50px; text-align:center;">
+            <p class="numerog"><b>50</b></p>
+            <p style="margin: 0%; color: gray;">Mentores</p>
+        </div>
+        <div id="numero3" style="flex-direction: column;  padding-left: 50px;">
+            <p class="numerog"><b>301</b></p>
+            <p style="margin: 0%; text-align: center;  color: gray;">Participantes</p>
+            </div>
+        </div>
     </div>
 
     
